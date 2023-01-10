@@ -1,0 +1,283 @@
+db.product.insert(
+[
+    {
+        "product_id":1,
+        "product_name":"Apple 2020 MackBook Air",
+        "category":"Electronics",
+        "category_id":1,
+        "price":88990,
+        "size":33.78,
+        "image":"https://ibb.co/B44VCmF",
+        "color":"silver",
+        "brand":"apple"
+
+    },
+    {
+        "product_id":2,
+        "product_name":"Lenovo IdeaPad Gaming",
+        "category":"Electronics",
+        "category_id":1,
+        "price":53599,
+        "size":39.62,
+        "image":"https://ibb.co/7yGx9mK",
+        "color":"black",
+        "brand":"lenovo"
+    },
+    {
+        "product_id":3,
+        "product_name":"HP Victus Intel Core i7 12th Gen",
+        "category":"Electronics",
+        "category_id":1,
+        "price":85990,
+        "size":39.62,
+        "image":"https://ibb.co/tM7ZcHz",
+        "color":"gray",
+        "brand":"hp"
+    },
+    {
+        "product_id":4,
+        "product_name":"SONy ILCE-7M4k/BQIN5 Mirrorless",
+        "category":"Electronics",
+        "category_id":1,
+        "price":230990,
+        "size":33,
+        "image":"https://ibb.co/rcggW9w",
+        "color":"black",
+        "brand":"sony"
+    },
+    {
+        "product_id":5,
+        "product_name":"Noise Icon Buzz BT Calling watch",
+        "category":"Electronics",
+        "category_id":1,
+        "price":1999,
+        "size":1.69,
+        "image":"https://ibb.co/YyPckjR",
+        "color":"silver",
+        "brand":"noise"
+    },
+    {
+        "product_id":6,
+        "product_name":"Think and  Grow Rich",
+        "category":"Books",
+        "category_id":2,
+        "price":113,
+        "language":"english",
+        "image":"https://ibb.co/GFddB8G",
+        "pages":331,
+        "binding":"Paperback"
+    },
+    {
+        "product_id":7,
+        "product_name":"The Leader In You",
+        "category":"Books",
+        "category_id":2,
+        "price":138,
+        "language":"english",
+        "image":"https://ibb.co/z7G7tTS",
+        "pages":212,
+        "binding":"Paperback"
+    },
+    {
+        "product_id":8,
+        "product_name":"Ravan Raja Rakshsancha",
+        "category":"Books",
+        "category_id":2,
+        "price":340,
+        "language":"marathi",
+        "image":"https://ibb.co/FbwQbDh",
+        "pages":432,
+        "binding":"Paperback"
+       
+    },
+    {
+        "product_id":9,
+        "product_name":"The Accidental Prime Minister",
+        "category":"Books",
+        "category_id":2,
+        "price":340,
+        "language":"hindi",
+        "image":"https://ibb.co/wSpPDpN",
+        "pages":346,
+        "binding":"Paperback"
+       
+    },
+    {
+        "product_id":10,
+        "product_name":"Rich Dad Poor Dad",
+        "category":"Books",
+        "category_id":2,
+        "price":388,
+        "language":"hindi",
+        "image":"https://ibb.co/k3qVRpf",
+        "pages":308,
+        "binding":"Paperback"
+        
+    },
+    {
+        "product_id":11,
+        "product_name":"Men Slim Fit Checkered Casual Shirt",
+        "category":"Fashion",
+        "category_id":3,
+        "price":413,
+        "size":"small",
+        "image":"https://ibb.co/8z2JkWF",
+        "color":"red",
+        "brand":"raymond"
+    },
+    {
+        "product_id":12,
+        "product_name":"Men Graphic Print Round Neck Blue T-Shirt",
+        "category":"Fashion",
+        "category_id":3,
+        "price":629,
+        "size":"Medium",
+        "image":"https://ibb.co/M69mjr1",
+        "color":"blue",
+        "brand":"levis"
+    },
+    {
+        "product_id":13,
+        "product_name":"Men Super Slim Fit Solid Casual Shirt",
+        "category":"Fashion",
+        "category_id":3,
+        "price":989,
+        "size":"large",
+        "image":"https://ibb.co/8PjqQsN",
+        "color":"black",
+        "brand":"blackberry"
+    },
+    {
+        "product_id":14,
+        "product_name":"Men Striped Polo Neck Blue T-shirt",
+        "category":"Fashion",
+        "category_id":3,
+        "price":389,
+        "size":"Medium",
+        "image":"https://ibb.co/G7GndV9",
+        "color":"blue",
+        "brand":"polo"
+    },
+    {
+        "product_id":15,
+        "product_name":"Men Solid Bomber Jacket",
+        "category":"Fashion",
+        "category_id":3,
+        "price":2599,
+        "size":"large",
+        "image":"https://ibb.co/jwG3Qmt",
+        "color":"black",
+        "brand":"louse Vuition"
+    },
+    {
+        "product_id":16,
+        "product_name":"Apple iPhone 13",
+        "category":"Mobiles",
+        "category_id":4,
+        "price":64999,
+        "size":15.49,
+        "image":"https://ibb.co/7Q67LFx",
+        "color":"white",
+        "brand":"apple"
+    },
+    {
+        "product_id":17,
+        "product_name":"Apple iPhone XR",
+        "category":"Mobiles",
+        "category_id":4,
+        "price":36999,
+        "size":15.49,
+        "image":"https://ibb.co/7rx2ZQg",
+        "color":"white",
+        "brand":"apple"
+    },
+    {
+        "product_id":18,
+        "product_name":"Samsung Galaxy S22 5G",
+        "category":"Mobiles",
+        "category_id":4,
+        "price":54900,
+        "size":15.49,
+        "image":"https://ibb.co/CvQpSSZ",
+        "color":"black",
+        "brand":"samsung"
+    },
+    {
+        "product_id":19,
+        "product_name":"Asus ROG 5s Pro",
+        "category":"Mobiles",
+        "category_id":4,
+        "price":79999,
+        "size":17.22,
+        "image":"https://ibb.co/YtFnw86",
+        "color":"black",
+        "brand":"asus"
+    },
+    {
+        "product_id":20,
+        "product_name":"Google Pixel 6a",
+        "category":"Mobiles",
+        "category_id":4,
+        "price":30999,
+        "size":15.6,
+        "image":"https://ibb.co/Hxh6JVd",
+        "color":"black",
+        "brand":"googlePixle"
+    },
+    {
+        "product_id":21,
+        "product_name":"LG 7.5 kg 5 star Semi Automatic Top Load Purple",
+        "category":"HomeAppliences",
+        "category_id":5,
+        "price":12699,
+        "weight":7.5,
+        "image":"https://ibb.co/wpg6bDh",
+        "color":"white",
+        "brand":"LG"
+    },
+    {
+        "product_id":22,
+        "product_name":"SAMSUNG 8 kg With AI Control & Wi-Fi and Digital Inverter Fully Automatic Front Load",
+        "category":"HomeAppliences",
+        "category_id":5,
+        "price":36990,
+        "weight":8,
+        "image":"https://ibb.co/FJzP40M",
+        "color":"black",
+        "brand":"samsung"
+    },
+    {
+        "product_id":23,
+        "product_name":"Aquagrand SkyLand 18 Ltr RO + UV + UF + TDS Water Purifier 18 L RO + UV + UF + TDS Water Purifier  (White, Blue)",
+        "category":"HomeAppliences",
+        "category_id":5,
+        "price":5087,
+        "size":18,
+        "image":"https://ibb.co/yWBMRXk",
+        "color":"white",
+        "brand":"aquagrand"
+    },
+    {
+        "product_id":24,
+        "product_name":"EUREKA FORBES Trendy Zip Dry Vacuum Cleaner with Reusable Dust Bag  (Red & Black)",
+        "category":"HomeAppliences",
+        "category_id":5,
+        "price":2799,
+        "size":2,
+        "image":"https://ibb.co/2ZK8NpY",
+        "color":"black",
+        "brand":"eureka"
+    },
+    {
+        "product_id":25,
+        "product_name":"SAMSUNG 253 l Frost Free Double Door 1 Star Refrigerator  (Elegant Inox, RT28A3021S8/HL)",
+        "category":"HomeAppliences",
+        "category_id":5,
+        "price":20390,
+        "size":253,
+        "image":"https://ibb.co/jMNK3Lp",
+        "color":"silver",
+        "brand":"samsung"
+    } 
+]
+)
